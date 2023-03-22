@@ -1,0 +1,15 @@
+<routes>
+    <vTypeDistribution id="Car">
+        <vType id="AV" vClass="passenger" length="5.18" color="0,1,0" accel="0.5079" decel="0.9361" emergencyDecel="6.5" maxSpeed="12.50" speedDev="0.05" startupDelay="1.0" speedfactor="1.2" sigma="0.0" departPosLat="random_free" carFollowModel="Krauss" minGap="5.38" tau="3.67" laneChangeModel="LC2013" lcAssertive="1.0" lcCooperative="0.0" latAlignment="nice" lcStrategic="0.5" jmStoplineGap="2" probability="0.5"/>
+        
+        <vType id="HV" length="4.7" color="1,0,0" accel="0.5932" decel="1.0234" emergencyDecel="6.5" maxSpeed="12.50" speedDev="0" startupDelay="0" speedfactor="1.0" sigma="0.5" departPosLat="random_free" carFollowModel="Krauss" minGap="2.98" tau="2.66" laneChangeModel="LC2013" lcAssertive="1.0" lcCooperative="0.0" latAlignment="nice" lcStrategic="0.5" jmStoplineGap="1" impatience="1" probability="0.5" />
+        
+    </vTypeDistribution>
+    <flow id="1213" type="Car" from="1222" to="2313" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+    <flow id="1221" type="Car" from="1222" to="2221" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+    <flow id="1225" type="Car" from="1222" to="2425" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+    <flow id="1235" type="Car" from="1222" to="3435" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+    <flow id="1241" type="Car" from="1222" to="4241" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+    <flow id="1212" type="Car" from="1222" to="4241" begin="0" end="3600" departPos="base" departLane="best" departSpeed="random" vehsPerHour="136"/>
+
+</routes>
